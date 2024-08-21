@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:sand"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sand"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "more_sand:sand_from_sandstone",
+      "more_sand:red_sand_from_red_sandstone",
+      "more_sand:sand_from_sandstone_slab",
+      "more_sand:red_sand_from_sandstone_slab",
+      "more_sand:sand_from_sandstone_stairs",
+      "more_sand:red_sand_from_sandstone_stairs",
+      "more_sand:sand_from_sandstone_wall",
+      "more_sand:red_sand_from_sandstone_wall",
+      "more_sand:sand_from_cut_sandstone",
+      "more_sand:red_sand_from_cut_sandstone",
+      "more_sand:sand_from_cut_sandstone_slab",
+      "more_sand:red_sand_from_cut_sandstone_slab",
+      "more_sand:sand_from_chiseled_sandstone",
+      "more_sand:red_sand_from_chiseled_sandstone",
+      "more_sand:red_sand"
+    ]
+  }
+}

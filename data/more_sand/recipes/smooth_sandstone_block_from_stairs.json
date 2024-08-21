@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "group": "smooth_sandstone",
+  "pattern": [
+    "xx",
+    "xx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:smooth_sandstone_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:smooth_sandstone",
+    "count": 3
+  }
+}
