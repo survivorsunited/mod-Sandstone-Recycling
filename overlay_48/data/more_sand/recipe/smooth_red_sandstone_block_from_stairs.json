@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "smooth_sandstone",
+  "pattern": [
+    "xx",
+    "xx"
+  ],
+  "key": {
+    "x": {
+      
+      "item": "minecraft:smooth_red_sandstone_stairs"
+    }
+  },
+  "result": {
+    "id": "minecraft:smooth_red_sandstone",
+    "count": 3
+  }
+}
