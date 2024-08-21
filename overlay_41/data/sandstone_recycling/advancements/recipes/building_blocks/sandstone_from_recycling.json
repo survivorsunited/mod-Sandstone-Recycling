@@ -15,7 +15,7 @@
     "has_stairs_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "more_sand:red_sandstone_blocks_from_stairs"
+        "recipe": "sandstone_recycling:red_sandstone_blocks_from_stairs"
       }
     }
   },
@@ -29,7 +29,7 @@
   "rewards": {
     "recipes": [
 
-      "more_sand:red_sandstone_blocks_from_stairs"
+      "sandstone_recycling:red_sandstone_blocks_from_stairs"
     ]
   }
 }

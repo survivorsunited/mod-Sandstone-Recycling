@@ -16,7 +16,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "more_sand:smooth_red_sandstone_stairs_from_smelting"
+        "recipe": "sandstone_recycling:smooth_red_sandstone_stairs_from_smelting"
       }
     }
   },
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "more_sand:smooth_red_sandstone_stairs_from_smelting"
+      "sandstone_recycling:smooth_red_sandstone_stairs_from_smelting"
     ]
   }
 }

@@ -16,13 +16,13 @@
     "has_slab_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "more_sand:smooth_red_sandstone_from_slabs"
+        "recipe": "sandstone_recycling:smooth_red_sandstone_block_from_slabs"
       }
     },
     "has_stairs_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "more_sand:smooth_red_sandstone_from_stairs"
+        "recipe": "sandstone_recycling:smooth_red_sandstone_blocks_from_stairs"
       }
     }
   },
@@ -35,8 +35,8 @@
   ],
   "rewards": {
     "recipes": [
-      "more_sand:smooth_red_sandstone_from_slabs",
-      "more_sand:smooth_red_sandstone_from_stairs"
+      "sandstone_recycling:smooth_red_sandstone_block_from_slabs",
+      "sandstone_recycling:smooth_red_sandstone_blocks_from_stairs"
     ]
   }
 }

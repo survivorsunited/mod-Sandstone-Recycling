@@ -22,20 +22,20 @@
   ],
   "rewards": {
     "recipes": [
-      "more_sand:sand_from_sandstone",
-      "more_sand:red_sand_from_red_sandstone",
-      "more_sand:sand_from_sandstone_slab",
-      "more_sand:red_sand_from_sandstone_slab",
-      "more_sand:sand_from_sandstone_stairs",
-      "more_sand:red_sand_from_sandstone_stairs",
-      "more_sand:sand_from_sandstone_wall",
-      "more_sand:red_sand_from_sandstone_wall",
-      "more_sand:sand_from_cut_sandstone",
-      "more_sand:red_sand_from_cut_sandstone",
-      "more_sand:sand_from_cut_sandstone_slab",
-      "more_sand:red_sand_from_cut_sandstone_slab",
-      "more_sand:sand_from_chiseled_sandstone",
-      "more_sand:red_sand_from_chiseled_sandstone"
+      "sandstone_recycling:sand_from_sandstone",
+      "sandstone_recycling:red_sand_from_red_sandstone",
+      "sandstone_recycling:sand_from_sandstone_slab",
+      "sandstone_recycling:red_sand_from_sandstone_slab",
+      "sandstone_recycling:sand_from_sandstone_stairs",
+      "sandstone_recycling:red_sand_from_sandstone_stairs",
+      "sandstone_recycling:sand_from_sandstone_wall",
+      "sandstone_recycling:red_sand_from_sandstone_wall",
+      "sandstone_recycling:sand_from_cut_sandstone",
+      "sandstone_recycling:red_sand_from_cut_sandstone",
+      "sandstone_recycling:sand_from_cut_sandstone_slab",
+      "sandstone_recycling:red_sand_from_cut_sandstone_slab",
+      "sandstone_recycling:sand_from_chiseled_sandstone",
+      "sandstone_recycling:red_sand_from_chiseled_sandstone"
     ]
   }
 }

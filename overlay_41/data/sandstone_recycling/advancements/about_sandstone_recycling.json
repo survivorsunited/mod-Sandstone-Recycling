@@ -1,14 +1,14 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:sand"
+      "id": "minecraft:sandstone"
     },
     "title": "Sandstone Recycling",
-    "description": "Recycle sandstone and red sandstone blocks, walls, stairs and slabs, as well as chiseled variants, back into sand. Smooth sandstone variants cannot be recycled.",
+    "description": "Recycle sandstone and red sandstone blocks, walls, stairs and slabs, as well as chiseled variants, back into sand. Smooth sandstone variants cannot be turned back into sand.",
     "show_toast": false,
     "announce_to_chat": false
   },
-  "parent": "global:not_blue",
+  "parent": "global:notblue",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:tick"
