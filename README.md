@@ -1,4 +1,4 @@
-# Sandstone-Recycling
+# Sandstone Recycling
 Recycle sandstone items back into sand! 
 
 ### Recycles to sand
