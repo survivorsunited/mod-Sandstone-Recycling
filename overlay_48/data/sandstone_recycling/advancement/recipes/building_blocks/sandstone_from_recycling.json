@@ -6,35 +6,30 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:smooth_sandstone"
+            "items": "minecraft:sandstone"
           }
         ]
       }
     },
-    "has_slab_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "more_sand:smooth_sandstone_from_slabs"
-      }
-    },
+
     "has_stairs_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "more_sand:smooth_sandstone_from_stairs"
+        "recipe": "more_sand:red_sandstone_blocks_from_stairs"
       }
     }
   },
   "requirements": [
     [
-      "has_slab_recipe",
+
       "has_sandstone",
       "has_stairs_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "more_sand:smooth_sandstone_from_slabs",
-      "more_sand:smooth_sandstone_from_stairs"
+
+      "more_sand:red_sandstone_blocks_from_stairs"
     ]
   }
 }

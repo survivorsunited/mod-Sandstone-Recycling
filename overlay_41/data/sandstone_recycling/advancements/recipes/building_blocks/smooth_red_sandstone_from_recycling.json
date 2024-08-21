@@ -6,9 +6,7 @@
       "conditions": {
         "items": [
           {
-            "items": [ 
-              "minecraft:smooth_red_sandstone"
-          ]
+            "items": "minecraft:smooth_red_sandstone"
           }
         ]
       }
@@ -16,13 +14,13 @@
     "has_slab_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "more_sand:smooth_red_sandstone_block_from_slab"
+        "recipe": "more_sand:smooth_red_sandstone_block_from_slabs"
       }
     },
     "has_stairs_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "more_sand:smooth_red_sandstone_block_from_stairs"
+        "recipe": "more_sand:smooth_red_sandstone_blocks_from_stairs"
       }
     }
   },
@@ -35,8 +33,8 @@
   ],
   "rewards": {
     "recipes": [
-      "more_sand:smooth_red_sandstone_block_from_slab",
-      "more_sand:smooth_red_sandstone_block_from_stairs"
+      "more_sand:smooth_red_sandstone_block_from_slabs",
+      "more_sand:smooth_red_sandstone_blocks_from_stairs"
     ]
   }
 }
