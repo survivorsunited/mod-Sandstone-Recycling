@@ -3,7 +3,7 @@
     "pack_format": 48,
     "supported_formats": {
       "min_inclusive": 15,
-      "max_inclusive": 99
+      "max_inclusive": 999
     },
     "description": "Break sandstone blocks, walls, stairs and slabs back into sand"
   },
