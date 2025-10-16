@@ -1,5 +1,7 @@
 # Sandstone Recycling
-Recycle sandstone items back into sand! 
+Recycle sandstone items back into sand!
+
+**Compatible with Minecraft 1.21.8 (pack format 82) and supports versions back to 1.20.5 (pack format 15)** 
 
 ### Recycles to sand
 - Sandstone blocks, slabs, stairs, walls

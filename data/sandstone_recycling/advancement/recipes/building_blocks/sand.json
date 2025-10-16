@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sandstone",
+              "minecraft:red_sandstone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sandstone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sandstone_recycling:sand_from_sandstone",
+      "sandstone_recycling:red_sand_from_red_sandstone",
+      "sandstone_recycling:sand_from_sandstone_slab",
+      "sandstone_recycling:red_sand_from_sandstone_slab",
+      "sandstone_recycling:sand_from_sandstone_stairs",
+      "sandstone_recycling:red_sand_from_sandstone_stairs",
+      "sandstone_recycling:sand_from_sandstone_wall",
+      "sandstone_recycling:red_sand_from_sandstone_wall",
+      "sandstone_recycling:sand_from_cut_sandstone",
+      "sandstone_recycling:red_sand_from_cut_sandstone",
+      "sandstone_recycling:sand_from_cut_sandstone_slab",
+      "sandstone_recycling:red_sand_from_cut_sandstone_slab",
+      "sandstone_recycling:sand_from_chiseled_sandstone",
+      "sandstone_recycling:red_sand_from_chiseled_sandstone"
+    ]
+  }
+}

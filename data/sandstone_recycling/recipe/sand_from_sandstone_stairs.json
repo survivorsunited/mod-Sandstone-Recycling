@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "blocks",
+  "group": "sand",
+  "ingredients": [
+    "minecraft:sandstone_stairs"
+  ],
+  "result": {
+    "id": "minecraft:sand",
+    "count": 3
+  }
+}
