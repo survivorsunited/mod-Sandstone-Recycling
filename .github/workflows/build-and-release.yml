@@ -1,0 +1,59 @@
+name: Build and Release Pack
+
+on:
+  pull_request:
+  push:
+    branches:
+      - "**"
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set version
+        id: version
+        run: |
+          if [[ "${GITHUB_REF}" == refs/tags/* ]]; then
+            VERSION="${GITHUB_REF#refs/tags/}"
+          else
+            VERSION="snapshot-${GITHUB_RUN_NUMBER}"
+          fi
+          echo "value=${VERSION}" >> "$GITHUB_OUTPUT"
+
+      - name: Build jar
+        run: |
+          mkdir -p dist
+          git archive --format=zip --output "dist/sandstone-recycling-${{ steps.version.outputs.value }}.jar" HEAD
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: sandstone-recycling-jar
+          path: dist/*.jar
+
+  release:
+    if: startsWith(github.ref, 'refs/tags/')
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: sandstone-recycling-jar
+          path: dist
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*.jar
